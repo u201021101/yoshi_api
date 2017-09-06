@@ -1,4 +1,0 @@
-D:\Development\Projects\Yoshi\src\Yoshi.Rest.Model\bin\Debug\Yoshi.Rest.Model.dll
-D:\Development\Projects\Yoshi\src\Yoshi.Rest.Model\bin\Debug\Yoshi.Rest.Model.pdb
-D:\Development\Projects\Yoshi\src\Yoshi.Rest.Model\obj\Debug\Yoshi.Rest.Model.dll
-D:\Development\Projects\Yoshi\src\Yoshi.Rest.Model\obj\Debug\Yoshi.Rest.Model.pdb
