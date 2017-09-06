@@ -1,0 +1,4 @@
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer.Model\bin\Debug\Yoshi.TaskLayer.Model.dll
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer.Model\bin\Debug\Yoshi.TaskLayer.Model.pdb
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer.Model\obj\Debug\Yoshi.TaskLayer.Model.dll
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer.Model\obj\Debug\Yoshi.TaskLayer.Model.pdb

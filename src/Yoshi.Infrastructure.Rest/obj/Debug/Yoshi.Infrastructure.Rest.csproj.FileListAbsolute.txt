@@ -1,0 +1,13 @@
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\Yoshi.Infrastructure.Rest.dll
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\Yoshi.Infrastructure.Rest.pdb
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\Newtonsoft.Json.dll
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\System.Net.Http.Formatting.dll
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\System.Web.Http.dll
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\Newtonsoft.Json.xml
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\System.Net.Http.Formatting.xml
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\System.Web.Http.xml
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\obj\Debug\Yoshi.Infrastructure.Rest.csprojResolveAssemblyReference.cache
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\obj\Debug\Yoshi.Infrastructure.Rest.dll
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\obj\Debug\Yoshi.Infrastructure.Rest.pdb
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\AutoMapper.dll
+D:\Development\Projects\Yoshi\src\Yoshi.Infrastructure.Rest\bin\Debug\AutoMapper.xml

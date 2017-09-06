@@ -1,0 +1,5 @@
+D:\Development\Projects\Yoshi\src\Yoshi.QueryLayer.Model\bin\Debug\Yoshi.QueryLayer.Model.dll
+D:\Development\Projects\Yoshi\src\Yoshi.QueryLayer.Model\bin\Debug\Yoshi.QueryLayer.Model.pdb
+D:\Development\Projects\Yoshi\src\Yoshi.QueryLayer.Model\obj\Debug\Yoshi.QueryLayer.Model.dll
+D:\Development\Projects\Yoshi\src\Yoshi.QueryLayer.Model\obj\Debug\Yoshi.QueryLayer.Model.pdb
+D:\Development\Projects\Yoshi\src\Yoshi.QueryLayer.Model\obj\Debug\Yoshi.QueryLayer.Model.csprojResolveAssemblyReference.cache

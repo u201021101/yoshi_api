@@ -1,0 +1,7 @@
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer\bin\Debug\Yoshi.TaskLayer.dll
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer\bin\Debug\Yoshi.TaskLayer.pdb
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer\bin\Debug\Yoshi.TaskLayer.Model.dll
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer\bin\Debug\Yoshi.TaskLayer.Model.pdb
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer\obj\Debug\Yoshi.TaskLayer.csprojResolveAssemblyReference.cache
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer\obj\Debug\Yoshi.TaskLayer.dll
+D:\Development\Projects\Yoshi\src\Yoshi.TaskLayer\obj\Debug\Yoshi.TaskLayer.pdb
