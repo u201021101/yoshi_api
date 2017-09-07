@@ -5,6 +5,17 @@ namespace Yoshi.TaskLayer.Administration
 {
     public class MerchantService : IMerchantService
     {
+        #region EntityServices ---------------
+
+        #endregion
+
+        #region Constructor ------------------
+
+        #endregion
+
+        #region IMerchantService
+
+
         public void Add(MerchantCreateEvent @event)
         {
             throw new NotImplementedException();
@@ -19,5 +30,6 @@ namespace Yoshi.TaskLayer.Administration
         {
             throw new NotImplementedException();
         }
+        #endregion
     }
 }

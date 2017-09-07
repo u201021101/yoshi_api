@@ -53,6 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\Contact.cs" />
+    <Compile Include="Administration\Location.cs" />
+    <Compile Include="Administration\SportField.cs" />
     <Compile Include="Base\BaseEntity.cs" />
     <Compile Include="Identity\ClientApplication.cs" />
     <Compile Include="Identity\ClientToken.cs" />
