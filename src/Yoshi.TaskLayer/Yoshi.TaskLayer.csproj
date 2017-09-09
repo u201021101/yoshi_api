@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\User\IUserService.cs" />
+    <Compile Include="Administration\User\UserService.cs" />
     <Compile Include="Administration\Merchant\IMerchantService.cs" />
     <Compile Include="Administration\Merchant\MerchantService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Administration\ContactDto.cs" />
     <Compile Include="Administration\LocationDto.cs" />
+    <Compile Include="Administration\UserDto.cs" />
     <Compile Include="Administration\MerchantDto.cs" />
     <Compile Include="Administration\SportFieldDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
