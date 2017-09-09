@@ -56,8 +56,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Administration\User\IUserQueryService.cs" />
     <Compile Include="Administration\User\UserQueryService.cs" />
+=======
+    <Compile Include="Administration\Location\ILocationQueryService.cs" />
+    <Compile Include="Administration\Location\LocationQueryService.cs" />
+>>>>>>> c0d5705c3de6a62afa96813187e6f565a418824a
     <Compile Include="Administration\Merchant\IMerchantQueryService.cs" />
     <Compile Include="Administration\Merchant\MerchantQueryService.cs" />
     <Compile Include="Mapping\QueryMappingProfile.cs" />

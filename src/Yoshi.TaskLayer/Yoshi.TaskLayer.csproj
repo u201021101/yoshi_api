@@ -47,8 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Administration\User\IUserService.cs" />
     <Compile Include="Administration\User\UserService.cs" />
+=======
+    <Compile Include="Administration\Location\ILocationService.cs" />
+    <Compile Include="Administration\Location\LocationService.cs" />
+>>>>>>> c0d5705c3de6a62afa96813187e6f565a418824a
     <Compile Include="Administration\Merchant\IMerchantService.cs" />
     <Compile Include="Administration\Merchant\MerchantService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Administration\UserRep.cs" />
+=======
+    <Compile Include="Administration\LocationRep.cs" />
+>>>>>>> c0d5705c3de6a62afa96813187e6f565a418824a
     <Compile Include="Administration\MerchantRep.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
