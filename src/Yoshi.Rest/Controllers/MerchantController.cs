@@ -95,6 +95,10 @@ namespace Yoshi.Rest.Controllers
                 var @event = new MerchantCreateEvent
                 {
                     Name = resource.Name,
+                    BusinessName = resource.BusinessName,
+                    TaxId = resource.TaxId,
+                    ContactName = resource.ContactName,
+                    ContactPhone = resource.ContactPhone,
                     CreatedBy = this.Identity
                 };
 

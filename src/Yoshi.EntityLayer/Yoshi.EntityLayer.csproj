@@ -77,10 +77,14 @@
   <ItemGroup>
     <Compile Include="Context\ApplicationDbContext.cs" />
     <Compile Include="Context\IApplicationDbContext.cs" />
+    <Compile Include="Data\ClientApplicationInitializer.cs" />
+    <Compile Include="Data\Initializer.cs" />
+    <Compile Include="Data\RoleInitializer.cs" />
+    <Compile Include="Data\UserInitializer.cs" />
     <Compile Include="Identity\IdentityConfig.cs" />
-    <Compile Include="Migrations\201709060259038_Initial.cs" />
-    <Compile Include="Migrations\201709060259038_Initial.Designer.cs">
-      <DependentUpon>201709060259038_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201709090236553_Initial.cs" />
+    <Compile Include="Migrations\201709090236553_Initial.Designer.cs">
+      <DependentUpon>201709090236553_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -98,8 +102,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201709060259038_Initial.resx">
-      <DependentUpon>201709060259038_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201709090236553_Initial.resx">
+      <DependentUpon>201709090236553_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

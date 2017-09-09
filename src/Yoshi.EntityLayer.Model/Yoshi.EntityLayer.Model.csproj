@@ -53,7 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administration\Contact.cs" />
     <Compile Include="Administration\Location.cs" />
     <Compile Include="Administration\SportField.cs" />
     <Compile Include="Base\BaseEntity.cs" />
@@ -61,6 +60,9 @@
     <Compile Include="Identity\ClientToken.cs" />
     <Compile Include="Identity\GuidIdentity.cs" />
     <Compile Include="Administration\Merchant.cs" />
+    <Compile Include="Names\ClientApplicationNames.cs" />
+    <Compile Include="Names\RoleNames.cs" />
+    <Compile Include="Names\UserNames.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

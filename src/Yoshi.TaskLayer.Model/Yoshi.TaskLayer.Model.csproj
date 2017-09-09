@@ -43,5 +43,11 @@
     <Compile Include="Administration\MerchantEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yoshi.EntityLayer.Model\Yoshi.EntityLayer.Model.csproj">
+      <Project>{9B08DBC4-2572-4C7D-A38F-194672CFD407}</Project>
+      <Name>Yoshi.EntityLayer.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,10 +52,26 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Yoshi.EntityLayer.Model\Yoshi.EntityLayer.Model.csproj">
+      <Project>{9b08dbc4-2572-4c7d-a38f-194672cfd407}</Project>
+      <Name>Yoshi.EntityLayer.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yoshi.EntityLayer.Service\Yoshi.EntityLayer.Service.csproj">
+      <Project>{72c80736-7b89-4f46-83d8-df9203ca2c50}</Project>
+      <Name>Yoshi.EntityLayer.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yoshi.EntityLayer\Yoshi.EntityLayer.csproj">
+      <Project>{ba557834-263e-4fb6-b741-3b91170b4468}</Project>
+      <Name>Yoshi.EntityLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Yoshi.TaskLayer.Model\Yoshi.TaskLayer.Model.csproj">
       <Project>{E9182D80-4AF9-4A54-B796-8C6E5C8BDB3B}</Project>
       <Name>Yoshi.TaskLayer.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

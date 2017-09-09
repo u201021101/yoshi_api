@@ -19,13 +19,18 @@ namespace Yoshi.EntityLayer.Model.Administration
 
         [Required]
         [StringLength(12)]
-        public string Ruc { get; set; }
+        public string TaxId { get; set; }
 
         [Required]
         public bool Active { get; set; }
 
         [Required]
-        public Contact Contact { get; set; }
+        [StringLength(50)]
+        public string ContactName { get; set; }
+
+        [Required]
+        [StringLength(12)]
+        public string ContactPhone { get; set; }
 
         public IEquatable<Location> Locations { get; set; }
     }
