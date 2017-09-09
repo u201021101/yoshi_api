@@ -12,9 +12,9 @@ namespace Yoshi.EntityLayer.Model.Base
         }
         #endregion
         #region Properties -------------------
-        public long CreatedBy { get; set; }
+        public Guid CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
-        public long? ModifiedBy { get; set; }
+        public Guid? ModifiedBy { get; set; }
         public DateTime? ModifiedOn { get; set; }
         public bool IsDeleted { get; set; }
         public Guid? DeletedBy { get; set; }

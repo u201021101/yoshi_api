@@ -26,7 +26,6 @@ namespace Yoshi.EntityLayer.Context
         public IDbSet<ClientApplication> Applications { get; set; }
         public IDbSet<ClientToken> Tokens { get; set; }
         public IDbSet<Merchant> Merchants { get; set; }
-        public IDbSet<Contact> Contacts { get; set; }
         public IDbSet<Location> Locations { get; set; }
         public IDbSet<SportField> SportsFields { get; set; }
         #endregion

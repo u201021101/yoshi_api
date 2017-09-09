@@ -91,8 +91,23 @@ namespace Yoshi.Infrastructure.Security.Provider
             var signInManager = context.OwinContext.GetUserManager<ApplicationSignInManager>();
             var status = signInManager.PasswordSignIn(context.UserName, context.Password, true, false);
 
+            switch (status)
+            {
+                case SignInStatus.Success:
+                    var userManager = context.OwinContext.GetUserManager<ApplicationUserManager>();
+                    var user = userManager.FindByNameAsync(context.UserName).Result;
+                    var identity = signInManager.CreateUserIdentity(user);
+                    var ticket = new AuthenticationTicket(identity, new AuthenticationProperties());
+                    context.Validated(ticket);
+                    break;
+                case SignInStatus.LockedOut:
+                case SignInStatus.RequiresVerification:
+                case SignInStatus.Failure:
+                    context.Rejected(); break;
+                default:
+                    break;
+            }
 
-            context.Validated();
             return base.GrantResourceOwnerCredentials(context);
         }
         #endregion
