@@ -23,6 +23,10 @@ namespace Yoshi.EntityLayer.Model.Administration
 
         [Required]
         [StringLength(12)]
+        public string ContactName { get; set; }
+
+        [Required]
+        [StringLength(12)]
         public string ContactPhone { get; set; }
         
         [Required]

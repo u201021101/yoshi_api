@@ -22,7 +22,7 @@ namespace Yoshi.TaskLayer.Administration
         {
             entity.Name = @event.Name;
             entity.Lastname = @event.Lastname;
-            entity.Email = @event.email;
+            entity.Email = @event.Email;
             entity.Active = @event.Active;
             entity.ContactName = @event.ContactName;
             entity.ContactPhone = @event.ContactPhone;

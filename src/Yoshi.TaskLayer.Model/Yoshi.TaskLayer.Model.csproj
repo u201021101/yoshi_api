@@ -40,11 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Administration\UserEvent.cs" />
-=======
     <Compile Include="Administration\LocationCreateEvent.cs" />
->>>>>>> c0d5705c3de6a62afa96813187e6f565a418824a
     <Compile Include="Administration\MerchantEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

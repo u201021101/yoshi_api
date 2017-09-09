@@ -19,5 +19,8 @@ namespace Yoshi.EntityLayer.Model.Administration
         [Required]
         [StringLength(200)]
         public string Description { get; set; }
+
+        [Required]
+        public Int16 PlayerNumber { get; set; }
     }
 }

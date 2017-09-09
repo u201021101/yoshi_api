@@ -156,15 +156,11 @@
     <Compile Include="App_Start\MappingConfig.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-<<<<<<< HEAD
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\MerchantController.cs" />
     <Compile Include="Names\UserResourceNames.cs" />
-=======
     <Compile Include="Controllers\LocationController.cs" />
-    <Compile Include="Controllers\MerchantController.cs" />
     <Compile Include="Names\LocationResourceNames.cs" />
->>>>>>> c0d5705c3de6a62afa96813187e6f565a418824a
     <Compile Include="Names\MerchantResourceNames.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

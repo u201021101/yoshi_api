@@ -53,13 +53,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Administration\User\IUserEntityService.cs" />
     <Compile Include="Administration\User\UserEntityService.cs" />
-=======
     <Compile Include="Administration\Location\ILocationEntityService.cs" />
     <Compile Include="Administration\Location\LocationEntityService.cs" />
->>>>>>> c0d5705c3de6a62afa96813187e6f565a418824a
     <Compile Include="Administration\Merchant\IMerchantEntityService.cs" />
     <Compile Include="Administration\Merchant\MerchantEntityService.cs" />
     <Compile Include="Identity\Application\ApplicationEntityService.cs" />

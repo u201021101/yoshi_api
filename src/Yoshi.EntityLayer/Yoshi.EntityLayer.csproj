@@ -83,7 +83,7 @@
     <Compile Include="Data\UserInitializer.cs" />
     <Compile Include="Identity\IdentityConfig.cs" />
     <Compile Include="Migrations\201709090236553_Initial.cs" />
-    <Compile Include="Migrations\201709090236553_Initial.Designer.cs">
+    <Compile Include="Migrations\201709090236553_Initial.designer.cs">
       <DependentUpon>201709090236553_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />

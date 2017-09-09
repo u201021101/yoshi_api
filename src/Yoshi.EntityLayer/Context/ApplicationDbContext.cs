@@ -28,6 +28,7 @@ namespace Yoshi.EntityLayer.Context
         public IDbSet<Merchant> Merchants { get; set; }
         public IDbSet<Location> Locations { get; set; }
         public IDbSet<SportField> SportsFields { get; set; }
+        public IDbSet<User> Users { get; set; }
         #endregion
     }
 }
