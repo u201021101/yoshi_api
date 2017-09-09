@@ -13,6 +13,9 @@ namespace Yoshi.Rest
                 cfg.CreateMap<MerchantDto, MerchantRep>();
                 cfg.CreateMap<MerchantDto, MerchantListRep>();
                 cfg.AddProfile<QueryMappingProfile>();
+
+                cfg.CreateMap<LocationDto, LocationRep>();
+                cfg.CreateMap<LocationDto, LocationListRep>();
             });
         }
     }

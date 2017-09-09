@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administration\Location\ILocationEntityService.cs" />
+    <Compile Include="Administration\Location\LocationEntityService.cs" />
     <Compile Include="Administration\Merchant\IMerchantEntityService.cs" />
     <Compile Include="Administration\Merchant\MerchantEntityService.cs" />
     <Compile Include="Identity\Application\ApplicationEntityService.cs" />
