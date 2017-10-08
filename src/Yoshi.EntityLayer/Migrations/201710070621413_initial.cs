@@ -3,7 +3,7 @@ namespace Yoshi.EntityLayer.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Initial : DbMigration
+    public partial class initial : DbMigration
     {
         public override void Up()
         {
@@ -23,7 +23,7 @@ namespace Yoshi.EntityLayer.Migrations
                 c => new
                     {
                         Id = c.Guid(nullable: false),
-                        IdMerchant = c.Guid(nullable: false),
+                        IdMerchant = c.Guid(),
                         Name = c.String(nullable: false, maxLength: 50),
                         Implement = c.String(nullable: false, maxLength: 200),
                         Service = c.String(nullable: false, maxLength: 200),
@@ -47,6 +47,7 @@ namespace Yoshi.EntityLayer.Migrations
                 c => new
                     {
                         Id = c.Guid(nullable: false),
+                        IdUser = c.Guid(nullable: false),
                         Name = c.String(nullable: false, maxLength: 50),
                         BusinessName = c.String(nullable: false, maxLength: 50),
                         TaxId = c.String(nullable: false, maxLength: 12),
@@ -93,6 +94,7 @@ namespace Yoshi.EntityLayer.Migrations
                         Id = c.Guid(nullable: false),
                         IdLocation = c.Guid(nullable: false),
                         Description = c.String(nullable: false, maxLength: 200),
+                        PlayerNumber = c.Short(nullable: false),
                         CreatedBy = c.Guid(nullable: false),
                         CreatedOn = c.DateTime(nullable: false),
                         ModifiedBy = c.Guid(),

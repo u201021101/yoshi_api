@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administration\UserRep.cs" />
     <Compile Include="Administration\LocationRep.cs" />
     <Compile Include="Administration\MerchantRep.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

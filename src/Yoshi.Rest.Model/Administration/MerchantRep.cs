@@ -6,6 +6,9 @@ namespace Yoshi.Rest.Model.Administration
     public abstract class BaseMerchantRep
     {
         [Required]
+        public Guid IdUser { get; set; }
+
+        [Required]
         public string Name { get; set; }
 
         [Required]

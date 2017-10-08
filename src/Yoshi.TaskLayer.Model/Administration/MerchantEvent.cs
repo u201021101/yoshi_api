@@ -5,6 +5,8 @@ namespace Yoshi.TaskLayer.Model.Administration
     public abstract class MerchantBaseEvent
     {
         public Guid Id { get; set; }
+        public Guid IdUser { get; set; }
+        
         public string Name { get; set; }
         public string BusinessName { get; set; }
         public string TaxId { get; set; }

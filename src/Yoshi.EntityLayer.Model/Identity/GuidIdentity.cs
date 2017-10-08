@@ -13,7 +13,7 @@ namespace Yoshi.EntityLayer.Model.Identity
     public class GuidIdentityUser : IdentityUser<Guid, GuidIdentityUserLogin, GuidIdentityUserRole, GuidIdentityUserClaim>
     {
         public string Name { get; set; }
-
+       
         #region Audit ------------------------
         public Guid CreatedBy { get; set; }
 

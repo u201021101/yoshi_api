@@ -20,6 +20,7 @@ namespace Yoshi.TaskLayer.Administration
         #region Methods ----------------------
         private Merchant CreateOrUpdate(MerchantBaseEvent @event, Merchant entity)
         {
+            entity.IdUser = @event.IdUser;
             entity.Name = @event.Name;
             entity.BusinessName = @event.BusinessName;
             entity.TaxId = @event.TaxId;

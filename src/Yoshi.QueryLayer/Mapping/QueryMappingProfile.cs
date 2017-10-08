@@ -8,7 +8,6 @@ namespace Yoshi.QueryLayer.Mapping
         public QueryMappingProfile()
         {
             CreateMap<Merchant, MerchantDto>();
-            CreateMap<User, UserDto>();
             CreateMap<Location, LocationDto>();
         }
     }

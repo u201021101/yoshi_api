@@ -82,9 +82,9 @@
     <Compile Include="Data\RoleInitializer.cs" />
     <Compile Include="Data\UserInitializer.cs" />
     <Compile Include="Identity\IdentityConfig.cs" />
-    <Compile Include="Migrations\201709090236553_Initial.cs" />
-    <Compile Include="Migrations\201709090236553_Initial.designer.cs">
-      <DependentUpon>201709090236553_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201710070621413_initial.cs" />
+    <Compile Include="Migrations\201710070621413_initial.Designer.cs">
+      <DependentUpon>201710070621413_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,8 +102,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201709090236553_Initial.resx">
-      <DependentUpon>201709090236553_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710070621413_initial.resx">
+      <DependentUpon>201710070621413_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

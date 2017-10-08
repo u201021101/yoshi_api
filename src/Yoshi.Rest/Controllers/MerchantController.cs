@@ -94,6 +94,7 @@ namespace Yoshi.Rest.Controllers
             {
                 var @event = new MerchantCreateEvent
                 {
+                    IdUser = resource.IdUser,
                     Name = resource.Name,
                     BusinessName = resource.BusinessName,
                     TaxId = resource.TaxId,
@@ -125,6 +126,11 @@ namespace Yoshi.Rest.Controllers
                 {
                     Id = Guid.Parse(id),
                     Name = resource.Name,
+                    BusinessName = resource.BusinessName,
+                    Active = resource.Active,
+                    ContactName = resource.ContactName,
+                    ContactPhone = resource.ContactPhone,
+
                     ModifiedBy = this.Identity,
                 };
 

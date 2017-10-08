@@ -22,13 +22,19 @@ namespace Yoshi.EntityLayer.Context
             return new ApplicationDbContext();
         }
 
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    //modelBuilder.Entity<Location>()
+        //    //    .HasOptional(x => x.Merchant).WithMany()
+        //    //    .HasForeignKey(x => x.IdMerchant);
+        //}
+
         #region IApplicationDbContext
         public IDbSet<ClientApplication> Applications { get; set; }
         public IDbSet<ClientToken> Tokens { get; set; }
         public IDbSet<Merchant> Merchants { get; set; }
         public IDbSet<Location> Locations { get; set; }
         public IDbSet<SportField> SportsFields { get; set; }
-        public IDbSet<User> Users { get; set; }
         #endregion
     }
 }

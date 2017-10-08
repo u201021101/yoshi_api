@@ -13,7 +13,7 @@ namespace Yoshi.EntityLayer.Model.Administration
         [Key]
         public Guid Id { get; set; }
 
-        public Guid IdMerchant { get; set; }
+        public Guid? IdMerchant { get; set; }
         public Merchant Merchant { get; set; }
 
         [Required]

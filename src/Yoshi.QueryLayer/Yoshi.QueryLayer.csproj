@@ -56,8 +56,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administration\User\IUserQueryService.cs" />
-    <Compile Include="Administration\User\UserQueryService.cs" />
     <Compile Include="Administration\Location\ILocationQueryService.cs" />
     <Compile Include="Administration\Location\LocationQueryService.cs" />
     <Compile Include="Administration\Merchant\IMerchantQueryService.cs" />
